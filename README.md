@@ -10,3 +10,6 @@
  1. Stimulus zum Laufen bringen (testing refreshing, click stuff)
  2. App-Container aus Wiki nachbauen + Seitenleiste
  3. Reproduzieren der App Container
+
+ # Dependencies
+- esbuild, typescript, stimulus, esbuild-plugin-stimulus
