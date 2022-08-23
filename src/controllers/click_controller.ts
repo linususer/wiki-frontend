@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus"
 
-export class ClickController extends Controller {
+export default class extends Controller {
   connect() {
     console.log("Hello, Stimulus!", this.element)
   }

@@ -4,9 +4,10 @@
     "esbuild": "^0.15.5"
   },
   "devDependencies": {
+    "esbuild-plugin-stimulus": "^0.1.5",
     "tsc": "^2.0.4"
-  }, "scripts": {
-    "build": "tsc",
-    "start": "esbuild src/main.ts --outfile=out/main.js"
+  },
+  "scripts": {
+    "build": "./src/build.js"
   }
 }
